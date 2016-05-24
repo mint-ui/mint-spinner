@@ -1,9 +1,8 @@
 {
   "name": "kb-spinner",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A vue project.",
-  "keywords": [
-  ],
+  "keywords": [],
   "scripts": {
     "dev": "cooking watch -c cooking.demo.js",
     "dist": "cooking build -p",
@@ -22,6 +21,5 @@
   "dependencies": {
     "vue": "*"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
