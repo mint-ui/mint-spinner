@@ -60,7 +60,6 @@ export default {
 
   props: {
     type: {
-      type: [Number, String],
       default: 0
     },
     size: {

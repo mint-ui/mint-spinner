@@ -25,10 +25,6 @@
   export default {
     name: 'fading-circle',
 
-    created() {
-      console.log(this);
-    },
-
     mixins: [common]
   };
 </script>
