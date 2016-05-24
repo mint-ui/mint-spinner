@@ -1,0 +1,27 @@
+{
+  "name": "kb-spinner",
+  "version": "0.0.0",
+  "description": "A vue project.",
+  "keywords": [
+  ],
+  "scripts": {
+    "dev": "cooking watch -c cooking.demo.js",
+    "dist": "cooking build -p",
+    "deploy": "cooking build -c cooking.demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kebab-ui/kb-spinner.git"
+  },
+  "homepage": "https://github.com/kebab-ui/kb-spinner#readme",
+  "bugs": {
+    "url": "https://github.com/kebab-ui/kb-spinner/issues"
+  },
+  "author": "qingwei-li",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "*"
+  },
+  "devDependencies": {
+  }
+}
