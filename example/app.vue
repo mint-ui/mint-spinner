@@ -10,7 +10,7 @@
   </span>
 
   <span class="spinner">
-    <three-bounce color="blue"></three-bounce>
+    <triple-bounce color="blue"></triple-bounce>
   </span>
 
   <span class="spinner">
@@ -27,7 +27,7 @@
 
   import DoubleBounce from '../src/spinner/double-bounce.vue';
   import FadingCircle from '../src/spinner/fading-circle.vue';
-  import ThreeBounce from '../src/spinner/three-bounce.vue';
+  import TripleBounce from '../src/spinner/triple-bounce.vue';
   import Snake from '../src/spinner/snake.vue';
 
   import Vue from 'vue';
@@ -39,7 +39,7 @@
     components: {
       DoubleBounce,
       FadingCircle,
-      ThreeBounce,
+      TripleBounce,
       Snake
     }
   };

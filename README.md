@@ -19,8 +19,8 @@ Vue.use(Spinner);
 import one spinner
 ```javascript
 import Vue from 'vue';
-import DoubleBounce from 'kb-spinner/lib/dobule-bounce';
-import 'kb-spinner/lib/dobule-bounce/style.css';
+import DoubleBounce from 'kb-spinner/lib/double-bounce';
+import 'kb-spinner/lib/double-bounce/style.css';
 
 Vue.component(DoubleBounce.name, DoubleBounce);
 ```
@@ -28,7 +28,7 @@ Vue.component(DoubleBounce.name, DoubleBounce);
 ## Spinner
 - snake
 - double-bounce
-- three-bounce
+- triple-bounce
 - fading-circle
 
 ## API
@@ -50,7 +50,7 @@ Vue.component(DoubleBounce.name, DoubleBounce);
 <kb-spinner type="double-bounce"></kb-spinner>
 
 <kb-spinner :type="2"></kb-spinner>
-<kb-spinner type="three-bounce"></kb-spinner>
+<kb-spinner type="triple-bounce"></kb-spinner>
 
 <kb-spinner :type="3"></kb-spinner>
 <kb-spinner type="fading-circle"></kb-spinner>

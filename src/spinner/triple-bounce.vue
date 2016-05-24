@@ -1,8 +1,8 @@
 <template>
-  <div class="kebab-spinner-three-bounce">
-    <div class="kebab-spinner-three-bounce-bounce1" :style="bounceStyle"></div>
-    <div class="kebab-spinner-three-bounce-bounce2" :style="bounceStyle"></div>
-    <div class="kebab-spinner-three-bounce-bounce3" :style="bounceStyle"></div>
+  <div class="kebab-spinner-triple-bounce">
+    <div class="kebab-spinner-triple-bounce-bounce1" :style="bounceStyle"></div>
+    <div class="kebab-spinner-triple-bounce-bounce2" :style="bounceStyle"></div>
+    <div class="kebab-spinner-triple-bounce-bounce3" :style="bounceStyle"></div>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
   import common from './common.vue';
 
   export default {
-    name: 'three-bounce',
+    name: 'triple-bounce',
 
     mixins: [common],
 
@@ -32,11 +32,11 @@
 
 <style lang="css">
 @component-namespace kebab-spinner {
-  @component three-bounce {
+  @component triple-bounce {
     @descendent bounce1, bounce2, bounce3 {
       border-radius: 100%;
       display: inline-block;
-      animation: kebab-spinner-three-bounce 1.4s infinite ease-in-out both;
+      animation: kebab-spinner-triple-bounce 1.4s infinite ease-in-out both;
     }
 
     @descendent bounce1 {
@@ -49,7 +49,7 @@
   }
 }
 
-@keyframes kebab-spinner-three-bounce {
+@keyframes kebab-spinner-triple-bounce {
   0%, 80%, 100% {
     transform: scale(0);
   } 40% {

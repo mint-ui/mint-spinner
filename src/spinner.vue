@@ -6,7 +6,7 @@
 const SPINNERS = [
   'snake',
   'double-bounce',
-  'three-bounce',
+  'triple-bounce',
   'fading-circle'
 ];
 const parseSpinner = function(index) {
@@ -29,7 +29,7 @@ const parseSpinner = function(index) {
  * kb-spinner
  * @module components/spinner
  * @desc 加载动画
- * @param {(string|number)} [type=snake] - 显示类型，传入类型名或者类型 id，可选 `snake`, `dobule-bounce`, `three-bounce`, `fading-circle`
+ * @param {(string|number)} [type=snake] - 显示类型，传入类型名或者类型 id，可选 `snake`, `dobule-bounce`, `triple-bounce`, `fading-circle`
  * @param {number} size - 尺寸
  * @param {string} color - 颜色
  *
@@ -54,7 +54,7 @@ export default {
   components: {
     SpinnerSnake: require('./spinner/snake.vue'),
     SpinnerDoubleBounce: require('./spinner/double-bounce.vue'),
-    SpinnerThreeBounce: require('./spinner/three-bounce.vue'),
+    SpinnerTripleBounce: require('./spinner/triple-bounce.vue'),
     SpinnerFadingCircle: require('./spinner/fading-circle.vue')
   },
 
