@@ -1,8 +1,12 @@
 {
   "name": "kb-spinner",
   "version": "0.1.0",
-  "description": "A vue project.",
+  "description": "A spinner component for vue.js",
   "keywords": [],
+  "main": "lib/all/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "dev": "cooking watch -c cooking.demo.js",
     "dist": "cooking build -p",
@@ -19,7 +23,7 @@
   "author": "qingwei-li",
   "license": "MIT",
   "dependencies": {
-    "vue": "*"
+    "vue": "^1.0.20"
   },
   "devDependencies": {}
 }

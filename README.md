@@ -11,7 +11,7 @@ import all spinner
 ```javascript
 import Vue from 'vue';
 import Spinner from 'kb-spinner';
-import 'kb-spinner/all/style.css'
+import 'kb-spinner/lib/all/style.css'
 
 Vue.use(Spinner);
 ```
@@ -19,11 +19,17 @@ Vue.use(Spinner);
 import one spinner
 ```javascript
 import Vue from 'vue';
-import DoubleBounce from 'kb-spinner/dobule-bounce';
-import 'kb-spinner/dobule-bounce/style.css';
+import DoubleBounce from 'kb-spinner/lib/dobule-bounce';
+import 'kb-spinner/lib/dobule-bounce/style.css';
 
 Vue.component(DoubleBounce.name, DoubleBounce);
 ```
+
+## Spinner
+- snake
+- double-bounce
+- three-bounce
+- fading-circle
 
 ## API
 
@@ -36,7 +42,7 @@ Vue.component(DoubleBounce.name, DoubleBounce);
 ### type
 - type: String|Number
 
-```javascript
+```html
 <kb-spinner :type="0"></kb-spinner>
 <kb-spinner type="snake"></kb-spinner>
 
