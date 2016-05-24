@@ -3,5 +3,5 @@
   "double-bounce": ["./src/spinner/double-bounce.vue"],
   "fading-circle": ["./src/spinner/fading-circle.vue"],
   "snake": ["./src/spinner/snake.vue"],
-  "three-bounce": ["./src/spinner/three-bounce.vue"]
+  "triple-bounce": ["./src/spinner/triple-bounce.vue"]
 }
