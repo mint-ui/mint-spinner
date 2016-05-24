@@ -35,34 +35,29 @@
       position: relative;
 
       @descendent circle {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
+        size: 100%;
+        position: absolute 0 * * 0;
 
         &::before {
           content: " ";
           display: block;
           margin: 0 auto;
-          width: 15%;
-          height: 15%;
+          size: 15%;
           border-radius: 100%;
           animation: kebab-fading-circle 1.2s infinite ease-in-out both;
         }
 
          @for $i from 2 to 12 {
           &.is-circle$i {
-            transform: rotate(calc(360deg / 12 * $(i) - 1));
+            transform: rotate(calc(360deg / 12 * ($(i) - 1)));
 
             &::before {
-              animation-delay: -calc(1.2s + 1.2s / 12 * ($i) - 1);
+              animation-delay: -calc(1.2s + 1.2s / 12 * (($i) - 1));
             }
           }
         }
       }
     }
-
 
     @keyframes kebab-fading-circle {
       0%, 39%, 100% { opacity: 0 }
