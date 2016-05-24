@@ -52,7 +52,7 @@
             transform: rotate(calc(360deg / 12 * ($i - 1)));
 
             &::before {
-              animation-delay: calc(1.2s + 1.2s / 12 * ($i - 1));
+              animation-delay: calc(-1.2s + 1.2s / 12 * ($i - 1));
             }
           }
         }
