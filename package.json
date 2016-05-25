@@ -1,6 +1,6 @@
 {
   "name": "kb-spinner",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A spinner component for vue.js",
   "keywords": [],
   "main": "lib/all/index.js",
@@ -23,8 +23,7 @@
   },
   "author": "qingwei-li",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "vue": "^1.0.20"
   }
