@@ -1,4 +1,4 @@
-# kb-spinner
+# mt-spinner
 > spinner.
 
 ## Install
@@ -15,19 +15,19 @@ npm i babel-plugin-component -D
 import all spinner
 ```javascript
 import Vue from 'vue';
-import Spinner from 'kb-spinner';
+import Spinner from 'mt-spinner';
 
 Vue.use(Spinner);
 ```
 
 ```html
-<kb-spinner></kb-spinner>
+<mt-spinner></mt-spinner>
 ```
 
 import one spinner
 ```javascript
 import Vue from 'vue';
-import { DoubleBounce } from 'kb-spinner';
+import { DoubleBounce } from 'mt-spinner';
 
 Vue.component(DoubleBounce.name, DoubleBounce);
 ```
@@ -43,7 +43,7 @@ Vue.component(DoubleBounce.name, DoubleBounce);
     "xxx",
     ["component", [
         {
-          "libraryName": "kb-spinner",
+          "libraryName": "mt-spinner",
           "style": true
         }
       ]
@@ -70,17 +70,17 @@ Vue.component(DoubleBounce.name, DoubleBounce);
 - type: String|Number
 
 ```html
-<kb-spinner :type="0"></kb-spinner>
-<kb-spinner type="snake"></kb-spinner>
+<mt-spinner :type="0"></mt-spinner>
+<mt-spinner type="snake"></mt-spinner>
 
-<kb-spinner :type="1"></kb-spinner>
-<kb-spinner type="double-bounce"></kb-spinner>
+<mt-spinner :type="1"></mt-spinner>
+<mt-spinner type="double-bounce"></mt-spinner>
 
-<kb-spinner :type="2"></kb-spinner>
-<kb-spinner type="triple-bounce"></kb-spinner>
+<mt-spinner :type="2"></mt-spinner>
+<mt-spinner type="triple-bounce"></mt-spinner>
 
-<kb-spinner :type="3"></kb-spinner>
-<kb-spinner type="fading-circle"></kb-spinner>
+<mt-spinner :type="3"></mt-spinner>
+<mt-spinner type="fading-circle"></mt-spinner>
 ```
 
 ## Development

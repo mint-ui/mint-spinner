@@ -26,7 +26,7 @@ const parseSpinner = function(index) {
 };
 
 /**
- * kb-spinner
+ * mt-spinner
  * @module components/spinner
  * @desc 加载动画
  * @param {(string|number)} [type=snake] - 显示类型，传入类型名或者类型 id，可选 `snake`, `dobule-bounce`, `triple-bounce`, `fading-circle`
@@ -34,16 +34,16 @@ const parseSpinner = function(index) {
  * @param {string} color - 颜色
  *
  * @example
- * <kb-spinner type="snake"></kb-spinner>
+ * <mt-spinner type="snake"></mt-spinner>
  *
  * <!-- double-bounce -->
- * <kb-spinner :type="1"></kb-spinner>
+ * <mt-spinner :type="1"></mt-spinner>
  *
  * <!-- default snake -->
- * <kb-spinner :size="30" color="#999"></kb-spinner>
+ * <mt-spinner :size="30" color="#999"></mt-spinner>
  */
 export default {
-  name: 'kb-spinner',
+  name: 'mt-spinner',
 
   computed: {
     spinner() {

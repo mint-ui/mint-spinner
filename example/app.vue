@@ -1,8 +1,8 @@
 <template>
-  <kb-spinner class="spinner" color="red"></kb-spinner>
-  <kb-spinner class="spinner" :type="1"></kb-spinner>
-  <kb-spinner class="spinner" :type="2"></kb-spinner>
-  <kb-spinner class="spinner" :type="3"></kb-spinner>
+  <mt-spinner class="spinner" color="red"></mt-spinner>
+  <mt-spinner class="spinner" :type="1"></mt-spinner>
+  <mt-spinner class="spinner" :type="2"></mt-spinner>
+  <mt-spinner class="spinner" :type="3"></mt-spinner>
   <hr>
 
   <span class="spinner">
