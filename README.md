@@ -6,23 +6,50 @@
 npm i kb-spinner -S
 ```
 
+## Required
+```shell
+npm i babel-plugin-component -D
+```
+
 ## Usage
 import all spinner
 ```javascript
 import Vue from 'vue';
 import Spinner from 'kb-spinner';
-import 'kb-spinner/lib/all/style.css'
 
 Vue.use(Spinner);
+```
+
+```html
+<kb-spinner></kb-spinner>
 ```
 
 import one spinner
 ```javascript
 import Vue from 'vue';
-import DoubleBounce from 'kb-spinner/lib/double-bounce';
-import 'kb-spinner/lib/double-bounce/style.css';
+import { DoubleBounce } from 'kb-spinner';
 
 Vue.component(DoubleBounce.name, DoubleBounce);
+```
+
+```html
+<double-bounce></double-bounce>
+```
+
+.babelrc
+```json
+{
+  "plugins": [
+    "xxx",
+    ["component", [
+        {
+          "libraryName": "kb-spinner",
+          "style": true
+        }
+      ]
+    ]
+  ]
+}
 ```
 
 ## Spinner
