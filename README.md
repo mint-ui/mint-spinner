@@ -25,6 +25,7 @@ Vue.use(Spinner);
 ```
 
 import one spinner
+
 ```javascript
 import Vue from 'vue';
 import { DoubleBounce } from 'mt-spinner';
@@ -51,6 +52,8 @@ Vue.component(DoubleBounce.name, DoubleBounce);
   ]
 }
 ```
+
+**`import Spinner from 'mt-spinner'` and `import { DoubleBounce } from 'mt-spinner'` can not be used together.**.
 
 ## Spinner
 - snake
