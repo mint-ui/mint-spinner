@@ -1,5 +1,5 @@
 {
-  "name": "kb-spinner",
+  "name": "mint-spinner",
   "version": "0.1.9",
   "description": "A spinner component for vue.js",
   "keywords": [],
@@ -15,11 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kebab-ui/kb-spinner.git"
+    "url": "git+https://github.com/kebab-ui/mint-spinner.git"
   },
-  "homepage": "https://github.com/kebab-ui/kb-spinner#readme",
+  "homepage": "https://github.com/kebab-ui/mint-spinner#readme",
   "bugs": {
-    "url": "https://github.com/kebab-ui/kb-spinner/issues"
+    "url": "https://github.com/kebab-ui/mint-spinner/issues"
   },
   "author": "qingwei-li",
   "license": "MIT",
