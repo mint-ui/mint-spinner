@@ -15,11 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kebab-ui/mint-spinner.git"
+    "url": "git+https://github.com/mint-ui/mint-spinner.git"
   },
-  "homepage": "https://github.com/kebab-ui/mint-spinner#readme",
+  "homepage": "https://github.com/mint-ui/mint-spinner#readme",
   "bugs": {
-    "url": "https://github.com/kebab-ui/mint-spinner/issues"
+    "url": "https://github.com/mint-ui/mint-spinner/issues"
   },
   "author": "qingwei-li",
   "license": "MIT",
